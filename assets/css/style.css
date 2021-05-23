@@ -152,6 +152,11 @@ a:hover {
 }
 
 /*--/ Title Left /--*/
+/* .title-box-2 {
+  margin-bottom: 2rem;
+  margin-left: 25rem;
+} */
+
 .title-box-2 {
   margin-bottom: 3rem;
 }
@@ -169,6 +174,25 @@ a:hover {
   width: 100px;
   bottom: -12px;
 }
+
+/* .title-center {
+  font-size: 2rem;
+  position: relative;
+} */
+.line-mf-about {
+  width: 80px;
+  height: 5px;
+  background-color: #1fa0b1;
+  margin: 0 auto;
+}
+/* .title-center:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #1fa0b1;
+  width: 100px;
+  bottom: -12px;
+} */
 
 /*------/ Box /------*/
 .box-pl2 {
@@ -651,6 +675,10 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
+.intro .intro-title span {
+ font-weight: 300;
+}
+
 
 @media (min-width: 768px) {
   .intro .intro-title {
@@ -709,6 +737,7 @@ a:hover {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -718,13 +747,23 @@ a:hover {
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-top: -2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
 }
 
+.about-me{
+  line-height: 1.5rem;
+}
+
+/* @media (max-width: 425px) {
+  .about-info{
+    align-items: center;
+  }
+} */
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
